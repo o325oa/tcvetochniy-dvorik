@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цветочный дворик | Цветы, растения и садовый инвентарь</title>
+  <meta name="description" content="Магазин цветов и товаров для сада Цветочный дворик. Букеты, горшечные растения, саженцы, земля, инструменты. Уют и красота для вашего дома.">
+  <meta name="keywords" content="цветы, букеты, горшечные растения, саженцы, земля, лопаты, сад, цветочный магазин">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e2a3ae'%3E%3Cpath d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5 2,5.41 4.42,3 7.5,3c1.74,0 3.41.81 4.5,2.08C13.09,3.81 14.76,3 16.5,3 19.58,3 22,5.41 22,8.5c0,3.77-3.4,6.86-8.55,11.54L12,21.35Z'/%3E%3C/svg%3E">
+  
+  <!-- Яндекс Метрика (замените XXXXXXXXX на номер счетчика) -->
+  <!-- <script>
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0];
+    k.async=1;k.src=r;a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(XXXXXXXX, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/XXXXXXXX" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+</head>
+<body data-page="index">
+<header>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img class="logo-img" src="images/logo.jpg" alt="Логотип Цветочный дворик">
+        <span class="logo-text">Цветочный дворик</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog-bukety.html">Букеты</a></li>
+        <li><a href="catalog-gorshechnye.html">Горшечные</a></li>
+        <li><a href="catalog-sad.html">Сад/Инструменты</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <!-- Карусель -->
+    <div class="hero">
+      <div class="carousel">
+        <div class="carousel-slides">
+          <div class="carousel-slide" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/car.jpg');">
+            <div class="slide-overlay"><div class="slide-text"><h1>Свежие букеты на заказ</h1><p>Нежные композиции для ваших близких</p></div></div>
+          </div>
+          <div class="carousel-slide" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/car1.jpg');">
+            <div class="slide-overlay"><div class="slide-text"><h1>Зеленый уголок дома</h1><p>Горшечные растения с доставкой</p></div></div>
+          </div>
+          <div class="carousel-slide" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/car2.jpg');">
+            <div class="slide-overlay"><div class="slide-text"><h1>Саженцы, земля, инвентарь</h1><p>Всё для вашего сада</p></div></div>
+          </div>
+        </div>
+        <button class="prev">‹</button>
+        <button class="next">›</button>
+      </div>
+    </div>
+
+    <!-- Блок с категориями (быстрый переход) -->
+    <section style="margin: 3rem 0 2rem; text-align: center;">
+      <h2>Наши категории</h2>
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 20px;">
+        <a href="catalog-bukety.html" class="btn btn-primary">Букеты →</a>
+        <a href="catalog-gorshechnye.html" class="btn btn-primary">Горшечные растения →</a>
+        <a href="catalog-sad.html" class="btn btn-primary">Саженцы, земля, лопаты →</a>
+      </div>
+    </section>
+
+    <!-- Контейнер, куда будут подгружаться товары с главной (featured) -->
+    <div id="featured-container"></div>
+
+    <!-- Преимущества -->
+    <section style="margin: 4rem 0 2rem;">
+      <h2>Почему выбирают нас</h2>
+      <div style="display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; margin: 30px 0;">
+        <div style="flex:1; min-width:200px;"><strong>🌿 Свежесть и качество</strong><br>Только проверенные растения и цветы</div>
+        <div style="flex:1; min-width:200px;"><strong>🚚 Быстрая доставка</strong><br>По городу и пригороду</div>
+        <div style="flex:1; min-width:200px;"><strong>💐 Индивидуальный подход</strong><br>Составим букет под заказ</div>
+      </div>
+    </section>
+
+    <!-- ========== ФОРМА ОБРАТНОЙ СВЯЗИ ========== -->
+    <section class="feedback-section">
+      <div class="feedback-container">
+        <div class="feedback-info">
+          <h2>Есть вопросы или заказ?</h2>
+          <p>Оставьте свои контакты, и мы свяжемся с вами в ближайшее время. Мы всегда рады помочь с выбором букета, растения или садового инвентаря.</p>
+          <div class="feedback-contacts">
+            <p>📞 +7 (999) 123-45-67</p>
+            <p>📧 info@cvetochniy-dvorik.ru</p>
+            <p>📍 г. Ваш Город, ул. Цветочная, 15</p>
+          </div>
+        </div>
+        <div class="feedback-form">
+          <form id="tgForm">
+            <div class="form-group">
+              <input type="text" id="userName" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="userPhone" placeholder="Номер телефона" required>
+            </div>
+            <div class="form-group">
+              <textarea id="userMessage" placeholder="Ваше сообщение (что вас интересует?)" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">Отправить сообщение</button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>🌷 Цветочный дворик — ваш сад в нежных тонах | г. Ваш Город | Тел: +7 (999) 123-45-67 | <a href="#" style="color:#a6686e;">Политика конфиденциальности</a></p>
+    <p style="margin-top:12px;">© 2026 Цветочный дворик</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+<!-- Отдельный скрипт для формы (можно вставить в script.js, но для наглядности здесь) -->
+<script>
+  // (function() {
+  //   const form = document.getElementById('tgForm');
+  //   if (!form) return;
+    
+  //   const WORKER_URL = 'https://misty-math-a146.roikn33.workers.dev/';
+    
+  //   form.addEventListener('submit', async (e) => {
+  //     e.preventDefault();
+      
+  //     const name = document.getElementById('userName').value.trim();
+  //     const phone = document.getElementById('userPhone').value.trim();
+  //     const message = document.getElementById('userMessage').value.trim();
+      
+  //     const statusDiv = document.getElementById('formStatus');
+      
+  //     if (!name || !phone) {
+  //       statusDiv.innerHTML = '❌ Пожалуйста, заполните имя и телефон.';
+  //       statusDiv.style.color = '#d47e92';
+  //       setTimeout(() => { statusDiv.innerHTML = ''; }, 3000);
+  //       return;
+  //     }
+      
+  //     statusDiv.innerHTML = '⏳ Отправка...';
+  //     statusDiv.style.color = '#9bc4b0';
+      
+  //     try {
+  //       const response = await fetch(WORKER_URL, {
+  //         method: 'POST',
+  //         headers: { 'Content-Type': 'application/json' },
+  //         body: JSON.stringify({ name, phone, message: message || 'Без сообщения' })
+  //       });
+        
+  //       const data = await response.json();
+        
+  //       if (data.ok === true || response.ok) {
+  //         statusDiv.innerHTML = '✅ Спасибо! Мы свяжемся с вами в ближайшее время.';
+  //         statusDiv.style.color = '#6f9e82';
+  //         form.reset();
+  //         setTimeout(() => { statusDiv.innerHTML = ''; }, 5000);
+  //       } else {
+  //         statusDiv.innerHTML = '❌ Ошибка отправки. Попробуйте позже или позвоните нам.';
+  //         statusDiv.style.color = '#d47e92';
+  //       }
+  //     } catch (error) {
+  //       console.error('Form error:', error);
+  //       statusDiv.innerHTML = '❌ Ошибка соединения. Проверьте интернет или позвоните нам.';
+  //       statusDiv.style.color = '#d47e92';
+  //     }
+  //   });
+  // })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "bukety": [
+    {
+      "id": 1,
+      "name": "Нежность пионов",
+      "price": 2590,
+      "image": "https://placehold.co/600x500/f7e6e8/9b6b6b?text=Пионовидный+букет",
+      "description": "Нежные пионы, эустома и гипсофила в крафтовой упаковке.",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Лавандовое настроение",
+      "price": 1890,
+      "image": "https://placehold.co/600x500/e9e0d9/a27b5c?text=Лавандовый+букет",
+      "description": "Полевые цветы, лаванда, веточки эвкалипта.",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Классическая роза",
+      "price": 3450,
+      "image": "https://placehold.co/600x500/f5d5d5/b35e5e?text=Букет+роз",
+      "description": "15 алых роз в пленке с декором.",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Весенний сад",
+      "price": 2250,
+      "image": "https://placehold.co/600x500/daead3/6d8f6d?text=Весенний+букет",
+      "description": "Тюльпаны, ирисы и веточки мимозы.",
+      "featured": false
+    }
+  ],
+  "gorshechnye": [
+    {
+      "id": 5,
+      "name": "Спатифиллум (Женское счастье)",
+      "price": 1290,
+      "image": "https://placehold.co/600x500/bdd4b0/4a6741?text=Спатифиллум",
+      "description": "Неприхотливое растение, очищает воздух.",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "Замиокулькас (Долларовое дерево)",
+      "price": 1850,
+      "image": "https://placehold.co/600x500/c8dfb8/4f6b3c?text=Замиокулькас",
+      "description": "Высота 50 см, в керамическом горшке.",
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Фикус Бенджамина",
+      "price": 2100,
+      "image": "https://placehold.co/600x500/b0bc8c/5e6b3e?text=Фикус",
+      "description": "Пышная крона, подходит для дома и офиса.",
+      "featured": true
+    },
+    {
+      "id": 8,
+      "name": "Орхидея фаленопсис",
+      "price": 2750,
+      "image": "https://placehold.co/600x500/f5e2e8/c2738a?text=Орхидея",
+      "description": "Цветущая орхидея в прозрачном горшке.",
+      "featured": false
+    }
+  ],
+  "sad": [
+    {
+      "id": 9,
+      "name": "Грунт универсальный 25л",
+      "price": 390,
+      "image": "https://placehold.co/600x500/dbd1b9/9c855a?text=Грунт+25л",
+      "description": "Питательный грунт для цветов и рассады.",
+      "featured": true
+    },
+    {
+      "id": 10,
+      "name": "Совок и лопатка (набор)",
+      "price": 290,
+      "image": "https://placehold.co/600x500/cfc3a8/8b784e?text=Инструменты",
+      "description": "Металлические, с деревянными ручками.",
+      "featured": true
+    },
+    {
+      "id": 11,
+      "name": "Саженцы роз (2 шт)",
+      "price": 890,
+      "image": "https://placehold.co/600x500/e5cfc4/b56848?text=Саженцы+роз",
+      "description": "Закрытая корневая система, сорт 'Фейри'.",
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "Удобрение для цветов",
+      "price": 350,
+      "image": "https://placehold.co/600x500/c2d4b0/6f9452?text=Удобрение",
+      "description": "Жидкое комплексное, 500 мл.",
+      "featured": false
+    }
+  ]
+}
