@@ -193,3 +193,41 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   })();
+
+// ========== БУРГЕР-МЕНЮ ==========
+document.addEventListener('DOMContentLoaded', function() {
+  const burgerMenu = document.getElementById('burgerMenu');
+  const navLinks = document.getElementById('navLinks');
+  const body = document.body;
+  
+  if (burgerMenu && navLinks) {
+    // Открытие/закрытие меню
+    burgerMenu.addEventListener('click', function(e) {
+      e.stopPropagation();
+      burgerMenu.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      body.classList.toggle('menu-open');
+    });
+    
+    // Закрытие меню при клике на ссылку
+    const links = navLinks.querySelectorAll('a');
+    links.forEach(link => {
+      link.addEventListener('click', function() {
+        burgerMenu.classList.remove('active');
+        navLinks.classList.remove('active');
+        body.classList.remove('menu-open');
+      });
+    });
+    
+    // Закрытие меню при клике вне его
+    document.addEventListener('click', function(e) {
+      if (navLinks.classList.contains('active') && 
+          !navLinks.contains(e.target) && 
+          !burgerMenu.contains(e.target)) {
+        burgerMenu.classList.remove('active');
+        navLinks.classList.remove('active');
+        body.classList.remove('menu-open');
+      }
+    });
+  }
+});
