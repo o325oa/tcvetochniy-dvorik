@@ -86,7 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
     containerEl.innerHTML = html;
   }
 
-  // Функция для отрисовки секций на главной странице
   function renderFeaturedSection(title, items, linkTo, parentContainer) {
     if (!items.length) return;
     
@@ -94,7 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="featured-category">
         <div class="featured-header">
           <h2>${title}</h2>
-          <a href="${linkTo}" class="btn btn-primary catalog-link">Смотреть все →</a>
+          <a href="${linkTo}" class="catalog-link">
+            Смотреть все 
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
         </div>
         <div class="catalog-grid featured-grid">
     `;

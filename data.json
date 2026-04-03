@@ -2,85 +2,85 @@
   "bukety": [
     {
       "id": 1,
-      "name": "Нежность пионов",
-      "price": 2590,
-      "image": "https://placehold.co/600x500/f7e6e8/9b6b6b?text=Пионовидный+букет",
-      "description": "Нежные пионы, эустома и гипсофила в крафтовой упаковке.",
+      "name": "Персиковый сон",
+      "price": 2300,
+      "image": "https://sun9-83.userapi.com/s/v1/ig2/Dnk-M7pgNpw_9xnMmeO5YUoyqO93VrvcYd0AhSIqc-mn5x4LRncZd1sU0EOUI7L0ijR74uDr60StVM_UVGUYzHzU.jpg?quality=95&as=32x44,48x66,72x99,108x148,160x219,240x329,360x493,480x658,540x740,640x877,720x987,864x1184&from=bu&u=gvSuyjnO3tLuWvaUZ8cy4vsJ6JhS0r7c-VlsX9DJoT0&cs=540x0",
+      "description": "Нежный букет для любого случая. Составляющая: хризантема, роза, гербера, зелень.",
       "featured": true
     },
     {
       "id": 2,
-      "name": "Лавандовое настроение",
-      "price": 1890,
-      "image": "https://placehold.co/600x500/e9e0d9/a27b5c?text=Лавандовый+букет",
-      "description": "Полевые цветы, лаванда, веточки эвкалипта.",
+      "name": "Букет #4",
+      "price": 5300,
+      "image": "https://sun9-80.userapi.com/s/v1/ig2/FFJEclU62zEAoO1uhrjy1gZTDx2WhCtPRjNpwcg1HVw6JSNIQkpB05SQIRJtIh0gs7C4HvF4uUWc6UKfNrxi1edC.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=P7J_VYHeWVaJ35y9k80sfIkvVKl3Jw8FJt7nTcf2I1M&cs=540x0",
+      "description": "Моно букет из 29 роз - сорта Лондон Таймс",
       "featured": true
     },
     {
       "id": 3,
-      "name": "Классическая роза",
-      "price": 3450,
-      "image": "https://placehold.co/600x500/f5d5d5/b35e5e?text=Букет+роз",
-      "description": "15 алых роз в пленке с декором.",
+      "name": "Букет #15",
+      "price": 5400,
+      "image": "https://sun9-14.userapi.com/s/v1/ig2/1Ij0pSrCamZgAdOf0BFjZjO49zEoy-43ClbftWP6fBnNr6ZBxrfHsypc94ERVX7H1X7-xj-hzaFBFXlt_mmGmHH_.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=-hDd_I9Xg3FhWy4TQx7GUr7j6mUJlvMlYEnQ6eR_XRg&cs=540x0",
+      "description": "Пышный букет нежно розовых пионов - 9 шт",
       "featured": true
     },
     {
       "id": 4,
-      "name": "Весенний сад",
-      "price": 2250,
-      "image": "https://placehold.co/600x500/daead3/6d8f6d?text=Весенний+букет",
-      "description": "Тюльпаны, ирисы и веточки мимозы.",
-      "featured": false
+      "name": "Дыхание моря",
+      "price": 1650,
+      "image": "https://sun9-40.userapi.com/s/v1/ig2/wnkOehoWPDaV_f8zmdgRBwKswEXP0Plly8QetfDGxupaDgr0-m_JI4nEG8-kzU4zlZNUdBxVNmJKZvLaRGiEJpWH.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=0Riowx6m-bepIEERBxKktrwyBDX6-KdW2xzFlKVLzNA&cs=540x0",
+      "description": "2 веточки хризантем (ромашковые), 3 хризантемы, 2 кустовые розы",
+      "featured": true
     }
   ],
   "gorshechnye": [
     {
       "id": 5,
-      "name": "Спатифиллум (Женское счастье)",
-      "price": 1290,
-      "image": "https://placehold.co/600x500/bdd4b0/4a6741?text=Спатифиллум",
-      "description": "Неприхотливое растение, очищает воздух.",
+      "name": "Драцена маргината",
+      "price": 2500,
+      "image": "https://sun9-34.userapi.com/s/v1/ig2/rzWKDwxqb1p3vE8kaZSpZ7huk_XFsByFFXElvjC_VgHwtEHjuv4s1I_eiPceYMrD9nLGkhqKpZQk6M8e_Ggk9XdC.jpg?quality=95&as=32x39,48x58,72x87,108x130,160x193,240x290,360x434,480x579,540x652,640x772,720x869,928x1120&from=bu&u=3GWYQpMJ9rbuEWT6bliN1P9VVJ-3C3oLBzzi-I1LTBk&cs=540x0",
+      "description": "Нетребовательное комнатное растение с пальмоподобным видом, длинными зелёными листьями с красноватой каймой и древовидным стволом.",
       "featured": true
     },
     {
       "id": 6,
-      "name": "Замиокулькас (Долларовое дерево)",
-      "price": 1850,
-      "image": "https://placehold.co/600x500/c8dfb8/4f6b3c?text=Замиокулькас",
-      "description": "Высота 50 см, в керамическом горшке.",
+      "name": "Радермархера",
+      "price": 1500,
+      "image": "https://sun9-22.userapi.com/s/v1/ig2/YvdKi3zvPDX_76egZaMrefEmHArzNgvhhSdSL_zoUUy_nLJQuzKKKecmhPCsT1aSd_HBktU8NNx7dfyYFjRgzGuX.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,1600x1600&from=bu&u=E7gO-Gy5HejdGSg9PBDNX7o6xk74oh_PfMlNpygTwwQ&cs=540x0",
+      "description": "Символизирует домашний уют, благополучие.",
       "featured": true
     },
     {
       "id": 7,
-      "name": "Фикус Бенджамина",
-      "price": 2100,
-      "image": "https://placehold.co/600x500/b0bc8c/5e6b3e?text=Фикус",
-      "description": "Пышная крона, подходит для дома и офиса.",
+      "name": "Аглаонема",
+      "price": 1700,
+      "image": "https://sun9-80.userapi.com/s/v1/ig2/FseIXRLWzDvmr5wN5Gf1jWc_S6Zsc-zaUqfmqOPtVHx_I-VgFA91P7FLbIDxfXRI45n0uH8KOJP5vPRYCrG_0x_O.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1024x1024&from=bu&u=YJW8hO1vzBT_DsadIXacDt1NZoegEqwFd68NZYRu5Qo&cs=540x0",
+      "description": "Теневынослива, любит высокую влажность, умеренный полив, любит опрыскивание.",
       "featured": true
     },
     {
       "id": 8,
-      "name": "Орхидея фаленопсис",
-      "price": 2750,
-      "image": "https://placehold.co/600x500/f5e2e8/c2738a?text=Орхидея",
-      "description": "Цветущая орхидея в прозрачном горшке.",
-      "featured": false
+      "name": "Кротон",
+      "price": 1100,
+      "image": "https://sun9-12.userapi.com/s/v1/ig2/Rzk0DHsJCFp0fwRCUCCqBr77Uhuv2Q4V-2YRCiq8XsvF8XsznaLkO8Y2KUFz57hoWBVePPzAHWD4D7a9npBUu_HR.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,1600x1600&from=bu&u=ptCMXvWDkgclsrsjTUnqyyXEUlOwWdCUUfGbMTYZh1U&cs=540x0",
+      "description": "Защита дома и энергия",
+      "featured": true
     }
   ],
   "sad": [
     {
       "id": 9,
-      "name": "Грунт универсальный 25л",
-      "price": 390,
-      "image": "https://placehold.co/600x500/dbd1b9/9c855a?text=Грунт+25л",
+      "name": "Семена",
+      "price": 50,
+      "image": "https://sun9-11.userapi.com/s/v1/ig2/gDqvPCSqLwGgkRUyET1Zesfx8ClQwzDRH-Fs9ZozfzdDBQTeZ4vSOYczPXvOd5r2-JZmA3LSxe9rmefkyB9kYqfY.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=Y-6C7u8NXWArZK63X18VP_E1Zgd6wDMBRnUWW6i0R0Y&cs=1920x0",
       "description": "Питательный грунт для цветов и рассады.",
       "featured": true
     },
     {
       "id": 10,
-      "name": "Совок и лопатка (набор)",
+      "name": "Грунт",
       "price": 290,
-      "image": "https://placehold.co/600x500/cfc3a8/8b784e?text=Инструменты",
+      "image": "https://sun9-5.userapi.com/s/v1/ig2/RMaTJ8VyfTKZRnDdcyvoH0uFMKKOBHdVsR8c8Y9nAVQCljXi1kY0tW5UmPPnkm_LNM1sA3mr65PZBCnIqWgP0tEj.jpg?quality=95&as=32x41,48x61,72x91,108x137,160x203,240x304,360x456,480x608,540x684,640x811,720x912,1080x1368,1280x1621,1440x1824,2021x2560&from=bu&u=P7l6WtrZShk9bMVJzPDdaoyKtRJFCKJOvQ02V28bDCo&cs=2021x0",
       "description": "Металлические, с деревянными ручками.",
       "featured": true
     },
@@ -98,7 +98,7 @@
       "price": 350,
       "image": "https://placehold.co/600x500/c2d4b0/6f9452?text=Удобрение",
       "description": "Жидкое комплексное, 500 мл.",
-      "featured": false
+      "featured": true
     }
   ]
 }
